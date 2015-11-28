@@ -1,3 +1,5 @@
+<?php
+
 require_once __DIR__.'/vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -14,11 +16,13 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     ),
 ));
 
-$app->get('/search', function() {
+$app->get('/search', function () use ($app) {
     $sql = 'SELECT * FROM usuario';
     $usuarios = $app['db']->fetchAssoc($sql);
 
     return $usuarios['db'];
 });
+
+$app['debug'] = true;
 
 $app->run();
