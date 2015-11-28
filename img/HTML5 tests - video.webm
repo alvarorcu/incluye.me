@@ -1,0 +1,63 @@
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagecreate() expects parameter 1 to be long, string given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>36</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>150504</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagecreate' target='_new'>imagecreate</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>36</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagecolorallocate() expects parameter 1 to be resource, null given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>41</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0867</td><td bgcolor='#eeeeec' align='right'>151368</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagecolorallocate' target='_new'>imagecolorallocate</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>41</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagecolorallocate() expects parameter 1 to be resource, null given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>45</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.1134</td><td bgcolor='#eeeeec' align='right'>151872</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagecolorallocate' target='_new'>imagecolorallocate</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>45</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagesx() expects parameter 1 to be resource, null given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>57</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.1379</td><td bgcolor='#eeeeec' align='right'>152488</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagesx' target='_new'>imagesx</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>57</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagesy() expects parameter 1 to be resource, null given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>58</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.1540</td><td bgcolor='#eeeeec' align='right'>152568</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagesy' target='_new'>imagesy</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>58</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagestring() expects parameter 1 to be resource, null given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>61</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.1696</td><td bgcolor='#eeeeec' align='right'>152656</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagestring' target='_new'>imagestring</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>61</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: imagepng() expects parameter 1 to be resource, null given in C:\xampp\htdocs\test\backup\placeholder.php on line <i>64</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>149760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.1875</td><td bgcolor='#eeeeec' align='right'>152656</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.imagepng' target='_new'>imagepng</a>
+(  )</td><td title='C:\xampp\htdocs\test\backup\placeholder.php' bgcolor='#eeeeec'>..\placeholder.php<b>:</b>64</td></tr>
+</table></font>
