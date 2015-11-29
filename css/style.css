@@ -2409,7 +2409,8 @@ footer .contact-details p{
 .dropdown-menu.inner li a{
 	color:#cacac9;
 	font-size: 13px;
-	font-family: 'Droid Sans', sans-serif;	
+	font-family: 'Droid Sans', sans-serif;
+	min-width: 150px;
 }
 .your-donation{
 	margin-top: 16px;
