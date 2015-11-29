@@ -92,6 +92,7 @@ a:hover, a:focus{
 	border:2px solid #f79f17;
 	border-radius: 44px;
 	margin-top: 20px;
+	letter-spacing: 8px;
 	color: #f79f17 !important;
 	transition: all .5s ease !important;
 }
@@ -571,6 +572,7 @@ span.price-old{
     z-index: 99999;
     top:0;
 	background-size: cover;
+	padding-bottom: 4px;
 }
 #main-nav-h.default{
 	background:url(../img/nav-bg.jpg) no-repeat;
@@ -601,7 +603,10 @@ span.price-old{
 	border-bottom: 1px solid transparent;
 }
 .affix .nav.navbar-nav {
-    margin-top: 8px;
+    margin-top: 13px;
+}
+.affix .navbar-brand {
+	padding: 15px 15px;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
 	border-color: transparent;
@@ -624,8 +629,7 @@ span.price-old{
 }
 
 .navbar-brand > img{
-	margin-right: 20px;
-	margin-top: 12px;
+
 }
 #main-nav.affix .navbar-brand > img{
 	margin-top: 0;
@@ -661,9 +665,8 @@ span.price-old{
 	font-size: 2.93vw; 
 	color: #f79f17;
 	text-transform: uppercase;
-	letter-spacing: 55px;
-	letter-spacing: 4.03vw;
-	margin-left: 10px;
+	letter-spacing: 2.83vw;
+	margin-left: 32px;
 }
 .slider-text h2{
 	font-size: 40px;
@@ -3279,3 +3282,40 @@ ul.profile-detail > li > span{
 }
 
 
+/* ----------------------------------------------------
+	INDEX
+------------------------------------------------------- */
+
+.unete h1{
+	margin-bottom: 45px;
+	font-size: 30px;
+}
+
+/* ----------------------------------------------------
+	¿CÓMO FUNCIONA?
+------------------------------------------------------- */
+.how {
+	margin-top: 20px;
+	list-style: inside url("../img/bullet.png");
+	-webkit-padding-start: 15px;
+}
+.how li, .process li{
+	color: #919191;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.process {
+	list-style: none;
+	-webkit-padding-start: 16px;
+}
+.process span{
+	font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    padding-right: 13px;
+}
+.filtro li {
+	width: 19.5%;
+}

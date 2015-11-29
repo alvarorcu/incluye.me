@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" ng-app="incluyeApp">
 <head>
 	<meta charset="UTF-8">
-	<title>ATTYIA</title>
+	<title>Inclúyeme - Soluciones Específicas Para Incluir Una Vida A La Vez</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon.ico" />
 	<!-- Core CSS-->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	
@@ -17,7 +19,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body ng-controller="homeController">
 
     <nav id="main-nav" class="navbar navbar-fixed-top affix-top wow slideInDown">
       <div class="container">
@@ -28,75 +30,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           	<ul class="nav navbar-nav">
-            <li><a href="index.html">Inicio</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="about.html">About Us</a></li>
-                <li class="dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsor</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="become-my-sponsor.html">Become My Sponsor</a></li>
-                      <li><a href="free-cards.html"> Free Cards</a></li>
-                      <li><a href="my-information.html">My Information</a></li>
-                      <li><a href="payment-methods.html">Payment Methods</a></li>
-                      <li><a href="review-and-submit.html">Review &amp; Submit</a></li>
-                  </ul>
-                </li>
-                      
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="detailed-project.html">Detailed Project</a></li>
-                <li><a href="donors.html">Donors</a></li>
-
-                <li class="dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product Details</a>
-                  <ul class="dropdown-menu">
-                     <li><a href="product-detail-v1.html"> Product Details V1</a></li>
-                     <li><a href="product-detail-v2.html">Product Details V2</a></li>
-                  </ul>
-
-                </li>
-               
-               
-                <li><a href="product-grid.html">Product Grid View</a></li>
-                <li><a href="product-list.html">Product List View</a></li>
-                
-                <li><a href="sign-in-or-register.html">Sign In or Register</a></li>
-                <li><a href="sponsor-a-child.html">Sponsor A Child</a></li>
-              </ul>
-             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Qué es Inclúyeme? <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="team.html">Team Page</a></li>
-                <li><a href="team-detail.html">Team Details</a></li>
-              </ul>
-             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Cómo Funciona?<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="event-calendar.html">Event Calander</a></li>
-                <li><a href="event-detailed.html">Event Detailed</a></li>
-                <li><a href="event-listing.html">Event Listing</a></li>
-              </ul>
-             </li> 
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Equipo <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="causes.html">Causes</a></li>
-                <li><a href="detailed-cause.html">Detailed Cause</a></li>
-              </ul>
-             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Experiencias <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="gallery-2columns.html">Gallery 2 Columns</a></li>
-                <li><a href="gallery-3columns.html">Gallery 3 Columns</a></li>
-                <li><a href="gallery-detail.html">Gallery Detail</a></li>
-              </ul>
-             </li>
+            <li><a href="about.html">¿Qué es Inclúyeme?</a></li>
+            <li><a href="causes.html">Proyectos</a></li>
+            <li><a href="how.html">¿Cómo Funciona?</a></li>
+            <li><a href="team.html">Equipo</a></li>
+            <li><a href="#">Experiencias</a></li>
             <li><a href="contact-us.html">Contáctanos</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -120,12 +62,12 @@
 								data-easing="easeOutExpo">
 								<div class="slider-text text-center">
 									<h1 class="text-center">
-										CREA
+										GENERANDO
 									</h1>
 									<h2 class="text-center">inclusión</h2>
 
 									<div class="slider-btn">
-										<a class="btn btn-donate" href="">VER PROYECTOS</a>
+										<a class="btn btn-donate" href="#unete">ÚNETE</a>
 									</div>
 									
 								</div>
@@ -138,7 +80,7 @@
 								data-easing="easeOutExpo" style="bottom:0; margin-bottom: 50px;">
 								<div class="slider-text text-center">
 									
-									<div class="slider-social">
+									<div class="slider-social" id="unete">
 										<a href=""><i class="fa fa-facebook"></i></a>
 										<a href=""><i class="fa fa-twitter"></i></a>
 										<a href=""><i class="fa fa-instagram"></i></a>
@@ -175,36 +117,36 @@
 <section>
 	<div class="container wow fadeIn">
 		<div class="row">
-			
-			<div class="col-sm-3 text-center help-ways">
-				<img src="img/heart.png" alt="">
-				<h2>Desarrolla un Proyecto</h2>
-				<hr>
-				<p>¿Estás listo para incluir a un niño o jóven con discapacidad?</p>
-				<a class="btn btn-orange" href="">Empieza Ya</a>
+
+			<div class="col-sm-12 text-center unete">
+				<h1>¿cómo te quieres involucrar?</h1>
 			</div>
 			
 			<div class="col-sm-3 text-center help-ways">
-				<img src="img/building.png" alt="">
-				<h2>Asesora un Proyecto</h2>
+				<img src="img/heart.png" alt="">
+				<h2>Lidera un Proyecto</h2>
 				<hr>
-				<p>¿Deseas ayudar a que estos proyectos se desarrollen correctamente? </p>
-				<a class="btn btn-orange" href="">Postula Ahora</a>
+				<p>Estoy listo para incluir a un niño o joven con discapacidad</p>
+				<a class="btn btn-orange" href="">Empieza Ya</a>
 			</div>
 
 			<div class="col-sm-3 text-center help-ways">
 				<img src="img/event.png" alt="">
-				<h2>Crea una Causa</h2>
+				<h2>Postula un Proyecto</h2>
 				<hr>
-				<p>¿Conoces a alguien que necesite nuestra ayuda?</p>
-				<a class="btn btn-orange" href="">Escríbenos</a>
+				<p>Conozco a alguien que necesita de Inclúyeme</p>
+				<a class="btn btn-orange" href="">Postula Ahora</a>
+			</div>
+			
+			<div class="col-sm-3 text-center help-ways">
+				<img src="img/building.png" alt="">
+				<h2>Sé Parte de Inclúyeme</h2>
+				<hr>
+				<p>Quiero donar mi tiempo y talento para difundir y consolidar Inclúyeme</p>
+				<a class="btn btn-orange" href="">Escríbenos Ya</a>
 			</div>
 
 			
-
-			
-
-
 		</div>
 	</div>
 </section>
@@ -280,104 +222,8 @@
 		<div class="col-md-1"></div>
 			<div class="col-md-10">
 				<div id="help-now" class="wow slideInDown">
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help1.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>scolarships needed</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>1</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help2.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>begging for clean water</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>2</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help3.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>clothes for everyone</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>3</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help1.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>scolarships needed</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>4</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help2.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>begging for clean water</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>5</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help3.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>clothes for everyone</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>6</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+        </div>
+      </div>
 			<div class="col-md-1"></div>
 		</div>
 	</div>
@@ -390,7 +236,7 @@
 	<div class="container wow fadeIn">
 		<div class="row">
 			<div class="col-md-12 our-work">
-				<h1>el proceso</h1>
+				<h1>proceso</h1>
 				<hr>
 			</div>
 		</div>
@@ -400,13 +246,12 @@
 					<img class="img-responsive" src="img/environment.jpg" alt="">
 					<div class="our-work-hover">
 						<div class="our-work-hover-text text-uppercase">
-							<h4>Environment</h4>
+							<h4>Conocemos</h4>
 						</div>
 					</div>
 				</div>
 				<div class="our-work-content">
-					<p>Fuel-efficient cookstoves & forest conservation, fruit tree planting, etc.</p>
-					<span>23 Projects</span><a class="btn btn-orange pull-right" href="">View Projects</a>
+					<p>Definimos el perfil con necesidades específicas de personas que requieran de un proyecto y profesionales capaces de desarrollarlos.</p>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 our-work-main">
@@ -414,13 +259,12 @@
 					<img  class="img-responsive" src="img/education.jpg" alt="">
 					<div class="our-work-hover">
 						<div class="our-work-hover-text text-uppercase">
-							<h4>Education</h4>
+							<h4>Contactamos</h4>
 						</div>
 					</div>
 				</div>
 				<div class="our-work-content">
-					<p>Pre-schools, primary schools, secondary schools and adult literacy.</p>
-					<span>18 Projects</span><a class="btn btn-orange pull-right" href="">View Projects</a>
+					<p>Generamos material gráfico y contamos con una web para asignamos los proyectos a los postulantes más comprometidos.</p>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 our-work-main">
@@ -428,13 +272,12 @@
 					<img  class="img-responsive" src="img/healthcare.jpg" alt="">
 					<div class="our-work-hover">
 						<div class="our-work-hover-text text-uppercase">
-							<h4>Healthcare</h4>
+							<h4>Ejecutamos</h4>
 						</div>
 					</div>
 				</div>
 				<div class="our-work-content">
-					<p>Community dispensary and rural great healthy projects.</p>
-					<span>28 Projects</span><a class="btn btn-orange pull-right" href="">View Projects</a>
+					<p>Ejecutamos el proyecto y realizamos el seguimiento para el logro de los resultados definidos.</p>
 				</div>
 			</div>
 		</div>
@@ -453,8 +296,8 @@
 
 <!-- Javascript -->
 	<script src="js/jquery.js"></script>
-	
-	<script src="js/bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 	<script src="js/jquery.themepunch.revolution.js" type="text/javascript"></script> 
 	<script src="js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
 	<script src="js/owl.carousel.js"></script>
@@ -464,7 +307,8 @@
 	<script src="js/bootstrap-select.min.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/custom.js"></script>
-	<script>
+  <script src="js/appHome.js"></script>
+  <script>
 		// smooth scrool
       $(function() {
       	"use strict";
