@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="incluyeApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Inclúyeme - Soluciones Específicas Para Incluir Una Vida A La Vez</title>
@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body ng-controller="homeController">
 
     <nav id="main-nav" class="navbar navbar-fixed-top affix-top wow slideInDown">
       <div class="container">
@@ -204,104 +204,8 @@
 		<div class="col-md-1"></div>
 			<div class="col-md-10">
 				<div id="help-now" class="wow slideInDown">
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help1.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>scolarships needed</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>1</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help2.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>begging for clean water</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>2</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help3.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>clothes for everyone</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>3</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help1.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>scolarships needed</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>4</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help2.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>begging for clean water</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>5</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="helping-slide item">
-						<div class="helping-slide-img">
-							<img src="img/help3.jpg" alt="">
-						</div>
-						<div class="helping-text text-center">
-							<p>clothes for everyone</p>
-						</div>
-						<div class="slider-overlay text-center">
-							<span>6</span>
-						</div>
-						<div class="helping-slide-hover">
-							<div class="helping-btn">
-								<a href="">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+        </div>
+      </div>
 			<div class="col-md-1"></div>
 		</div>
 	</div>
@@ -374,8 +278,8 @@
 
 <!-- Javascript -->
 	<script src="js/jquery.js"></script>
-	
-	<script src="js/bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 	<script src="js/jquery.themepunch.revolution.js" type="text/javascript"></script> 
 	<script src="js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
 	<script src="js/owl.carousel.js"></script>
@@ -385,7 +289,8 @@
 	<script src="js/bootstrap-select.min.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/custom.js"></script>
-	<script>
+  <script src="js/appHome.js"></script>
+  <script>
 		// smooth scrool
       $(function() {
       	"use strict";
