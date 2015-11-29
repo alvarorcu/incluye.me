@@ -3290,3 +3290,29 @@ ul.profile-detail > li > span{
 	margin-bottom: 45px;
 	font-size: 30px;
 }
+
+/* ----------------------------------------------------
+	¿CÓMO FUNCIONA?
+------------------------------------------------------- */
+.how {
+	margin-top: 20px;
+	list-style: inside url("../img/bullet.png");
+	-webkit-padding-start: 15px;
+}
+.how li, .process li{
+	color: #919191;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.process {
+	list-style: none;
+	-webkit-padding-start: 16px;
+}
+.process span{
+	font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    padding-right: 13px;
+}
