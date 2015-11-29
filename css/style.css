@@ -16,7 +16,7 @@
 	9) TWITTER FEEDS
 	10) FOOTER
 	11) ABOUT US
-	12) CSUSES
+	12) CAUSES
 	13) PROFILE DETAILS
 	
 ################################################################# */ 
@@ -609,12 +609,6 @@ span.price-old{
 .nav.navbar-nav > li > a:hover{
 	background: transparent;
 	border-bottom: 1px solid #fff;
-}
-.nav.navbar-nav > li:nth-of-type(1){
-	margin-left: 64px;
-}
-.nav.navbar-nav > li:nth-last-of-type(1) {
-	margin-left: 60px;
 }
 .nav.navbar-nav > li:nth-last-of-type(1) a {
 	border-bottom: none;
@@ -2262,6 +2256,7 @@ footer .contact-details p{
 .copyright{
 	background-color: #272727;
 	padding: 6px 0;
+	margin-top: 66px;
 }
 .copyright p{
 	color: #717171;
@@ -3282,3 +3277,5 @@ ul.profile-detail > li > span{
 	color: #fff;
 
 }
+
+
