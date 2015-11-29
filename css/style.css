@@ -604,6 +604,9 @@ span.price-old{
 .affix .nav.navbar-nav {
     margin-top: 13px;
 }
+.affix .navbar-brand {
+	padding: 15px 15px;
+}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
 	border-color: transparent;
 }
