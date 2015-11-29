@@ -92,6 +92,7 @@ a:hover, a:focus{
 	border:2px solid #f79f17;
 	border-radius: 44px;
 	margin-top: 20px;
+	letter-spacing: 8px;
 	color: #f79f17 !important;
 	transition: all .5s ease !important;
 }
@@ -665,7 +666,7 @@ span.price-old{
 	color: #f79f17;
 	text-transform: uppercase;
 	letter-spacing: 2.83vw;
-	margin-left: 10px;
+	margin-left: 32px;
 }
 .slider-text h2{
 	font-size: 40px;
@@ -3281,3 +3282,11 @@ ul.profile-detail > li > span{
 }
 
 
+/* ----------------------------------------------------
+	INDEX
+------------------------------------------------------- */
+
+.unete h1{
+	margin-bottom: 45px;
+	font-size: 30px;
+}
