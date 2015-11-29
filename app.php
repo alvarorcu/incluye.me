@@ -18,9 +18,10 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
 
 $app->get('/search', function () use ($app) {
     $sql = 'SELECT * FROM usuario';
-    $usuarios = $app['db']->fetchAssoc($sql);
-
-    return $usuarios['db'];
+    $usuarios = $app['db']->fetchAll($sql);
+    var_dump($usuarios); die();
+    //return $usuarios['db'];
+    return 'Hola Mundo'; 
 });
 
 $app['debug'] = true;
