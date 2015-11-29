@@ -978,6 +978,12 @@ section{
 	position: relative;
 	margin-top: 50px;
 }
+
+.helping-slide-img img{
+	width: 276px;
+	height:205px;
+
+}
 .helping-slide{
 	display: inline-block;
 	position: relative;
@@ -1026,6 +1032,7 @@ section{
 }
 .helping-text{
 	margin-top: 15px;
+	width: 276px;
 }
 .helping-text p{
 	font-family: Montserrat;
@@ -1036,14 +1043,15 @@ section{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 81%;
+    height: 205px;
     opacity: 0.9;
     transition: all .5s ease;
 }
 
+
 .helping-slide-hover {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 79%;
+    height: 205px;
     position: absolute;
     top: 0;
     width: 100%;
@@ -1053,8 +1061,8 @@ section{
 .slider-overlay span {
     color: #fff;
     display: block;
-    font-size: 40px;
-    margin-top: 27%;
+    font-size: 17px;
+    margin-top: 35%;
 
 }
 
@@ -2733,7 +2741,8 @@ footer .contact-details p{
 	top: 97%;
 }
 .causes .slider-overlay span{
-	margin-top: 20%;
+	font-size: 17px;
+    margin-top: 28%;
 }
 .causes .slider-overlay{
 	height: 100%;
