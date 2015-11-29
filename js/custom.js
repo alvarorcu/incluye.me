@@ -9,18 +9,18 @@ if ( $('.fullscreenbanner').length){
 		var api =	
 		
 		$('.fullscreenbanner').revolution(
-		{
+		{ 
 				delay:9000,
         startwidth:1170,
         startheight:slider_swidth,
         navigationType: 'none',
-               
         navigationStyle:"round", 
 		    fullWidth:"on",
-        forceFullWidth:"on"	
+        forceFullWidth:"on",
+        stopAtSlide:1,
+        stopAfterLoops:0
 		});
 			
-			api.revpause();
 	}
   //initative WoW.JS
    // new WOW().init();
@@ -70,19 +70,7 @@ if ( $('.fullscreenbanner').length){
           }
       });
       
-      $('.helping-slide').hover(function(e){
-        var progressbar = $(this).find('.progress-bar');
-        var value = progressbar.attr('data-percent');
-        progressbar.css('width', value+'%'); 
-
-      }, function(){
-
-        var progressbar = $(this).find('.progress-bar');
-        var value = progressbar.attr('data-percent');
-        progressbar.css('width', 0);
-        
-      });
-     
+    
       $("#help-now").owlCarousel({
      
           autoPlay: false, //Set AutoPlay to 3 seconds
