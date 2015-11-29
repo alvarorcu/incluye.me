@@ -306,6 +306,11 @@ span.price-old{
 	padding-top: 60px;
 	padding-bottom: 80px;
 }
+/*--- about-us */
+.blog-post-fwidth .about p {
+	font-size: 16px;
+    margin-top: 15px;
+}
 
 /*--- bootstrap 5 col */
 .col-xs-15,
@@ -323,7 +328,7 @@ span.price-old{
     float: left;
 }
 @media (min-width: 768px) {
-.col-sm-15 {
+	.col-sm-15 {
         width: 20%;
         float: left;
     }
@@ -333,12 +338,20 @@ span.price-old{
         width: 20%;
         float: left;
     }
+    .blog-post-fwidth .about p {
+    	font-size: 19px;
+    	margin-top: 11px;
+	}
 }
 @media (min-width: 1200px) {
     .col-lg-15 {
         width: 20%;
         float: left;
     }
+    .blog-post-fwidth .about p {
+    	font-size: 19px;
+    	margin-top: 40px;
+	}
 }
 /* -- Right Offset --*/
 .col-xs-offset-right-12 {
