@@ -9,7 +9,7 @@ incluyeApp.controller('homeController', function($scope, $http) {
   }).then(function successCallback(response) {
     $scope.projectsList = response.data;
     $.each(response.data, function(index, value){
-      var content = '<div class="helping-slide item"> <div class="helping-slide-img"><img src="' + value.image + '" alt=""></div><div class="helping-text text-center"><p>'+ value.name +'</p></div><div class="slider-overlay text-center"><span>1</span></div><div class="helping-slide-hover"><div class="helping-btn"><a href="">Conocer mas</a></div></div></div>';
+      var content = '<div class="helping-slide item"> <div class="helping-slide-img"><img src="' + value.image + '" alt=""></div><div class="helping-text text-center"><p>'+ value.name +'</p></div><div class="slider-overlay text-center"><span>'+ value.disability_type[0] + '</span></div><div class="helping-slide-hover"><div class="helping-btn"><a href="">Conocer mas</a></div></div></div>';
      var owl = $("#help-now").data('owlCarousel');
       /*       owl.owlCarousel(); */
       owl.addItem(content);
