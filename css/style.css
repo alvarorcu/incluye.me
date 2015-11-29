@@ -2739,7 +2739,8 @@ footer .contact-details p{
 	top: 97%;
 }
 .causes .slider-overlay span{
-	margin-top: 20%;
+	font-size: 17px;
+    margin-top: 28%;
 }
 .causes .slider-overlay{
 	height: 100%;
