@@ -131,7 +131,7 @@
                     <div class="col-md-4 col-sm-6  mt40" ng-repeat="project in projectsList | filter:ageFilter | filter:levelFilter">
                         <div class="helping-slide causes">
                             <div class="helping-slide-img">
-                                <img class="img-responsive" src="img/cause1.jpg" alt="">
+                                <img class="img-responsive" src={{project.image}} alt="">
                                 <div class="slider-overlay text-center">
                                     <span>{{project.display}}</span>
                                 </div>
