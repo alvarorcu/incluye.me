@@ -978,6 +978,12 @@ section{
 	position: relative;
 	margin-top: 50px;
 }
+
+.helping-slide-img img{
+	width: 276px;
+	height:205px;
+
+}
 .helping-slide{
 	display: inline-block;
 	position: relative;
