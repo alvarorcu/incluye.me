@@ -1,0 +1,8 @@
+---
+applications:
+- name: your-app-name-here
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/php-buildpack#v4.3.0
+  services:
+    - ElephantSQL-u0
+
