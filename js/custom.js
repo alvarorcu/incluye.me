@@ -205,3 +205,9 @@ if ( $('.fullscreenbanner').length){
 
 });
 
+
+$(document).ready(function() {
+  var hola = $( "#sel-discapacidad span.filter-option" ).text();
+  console.log(hola);
+});
+

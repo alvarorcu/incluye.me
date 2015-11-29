@@ -55,79 +55,79 @@
                 </div>
                 <div class="row">
 
-                    <div class="col-md-10 mt40">
-                        <ul class="list-inline event-view filtro">
-                            <li>
-                                <span class="droid">DISCAPACIDAD</span>
-                                <div class="choose-option mb30">
-                                    <select class="selectpicker form-control" title=''>
-                                        <option></option>
-                                        <option>Auditiva</option>
-                                        <option>Visual</option>
-                                        <option>Motora</option>
-                                        <option>Intelectual</option>
-                                        <option>TEA</option>
-                                        <option>Sordoceguera</option>
-                                        <option>Múltiple</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="droid">SEXO</span>
-                                <div class="choose-option mb30">
-                                    <select class="selectpicker form-control" title=''>
-                                        <option></option>
-                                        <option value="Masculino">Masculino</option>
-                                        <option value="Femenino">Femenino</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="droid">EDAD</span>
-                                <div class="choose-option mb30">
-                                    <select class="selectpicker form-control" title='Edad' ng-model="ageFilter">
-                                        <option></option>
-                                        <option value="5">0-5 años</option>
-                                        <option value="10">6-10 años</option>
-                                        <option value="15">11-15 años</option>
-                                        <option value="25">16-21 años</option>
-                                        <option value="30">22-30 años</option>
-                                        <option>31 años a más</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="droid">DIFICULTAD</span>
-                                <div class="choose-option mb30">
-                                    <select class="selectpicker form-control" title='Dificultad' ng-model="levelFilter">
-                                        <option></option>
-                                        <option value="básico">Básico (1-2 meses)</option>
-                                        <option value="moderado">Moderado (3-6 meses)</option>
-                                        <option value="complejo">Complejo (7 meses a más)</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="droid">CATEGORÍA</span>
-                                <div class="choose-option mb30">
-                                    <select class="selectpicker form-control" title=''>
-                                        <option></option>
-                                        <option>Educación</option>
-                                        <option>Alimentación</option>
-                                        <option>Rehabilitación</option>
-                                        <option>Prótesis</option>
-                                        <option>Higiene</option>
-                                        <option>Imagen personal</option>
-                                        <option>Otros</option>
-                                    </select>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 event-btn mt40">
-                        <a href="#" class="btn-orange text-uppercase">buscar</a>
-                    </div>
 
+                  <div class="col-md-10 mt40">
+                    <ul class="list-inline event-view filtro">
+                        <li>
+                            <span class="droid">DISCAPACIDAD</span>
+                            <div class="choose-option mb30">
+                                <select class="selectpicker form-control" title=''>
+                                    <option></option>
+                                    <option>Auditiva</option>
+                                    <option>Visual</option>
+                                    <option>Motora</option>
+                                    <option>Intelectual</option>
+                                    <option>TEA</option>
+                                    <option>Sordoceguera</option>
+                                    <option>Múltiple</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="droid">SEXO</span>
+                            <div class="choose-option mb30">
+                                <select class="selectpicker form-control" title=''>
+                                    <option></option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="droid">EDAD</span>
+                            <div class="choose-option mb30">
+                                <select class="selectpicker form-control" title='Edad' ng-model="ageFilter">
+                                    <option></option>
+                                    <option value="5">0-5 años</option>
+                                    <option value="10">6-10 años</option>
+                                    <option value="15">11-15 años</option>
+                                    <option value="25">16-21 años</option>
+                                    <option value="30">22-30 años</option>
+                                    <option>31 años a más</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="droid">DIFICULTAD</span>
+                            <div class="choose-option mb30">
+                                <select class="selectpicker form-control" title='Dificultad' ng-model="levelFilter">
+                                    <option></option>
+                                    <option value="básico">Básico (1-2 meses)</option>
+                                    <option value="moderado">Moderado (3-6 meses)</option>
+                                    <option value="complejo">Complejo (7 meses a más)</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="droid">CATEGORÍA</span>
+                            <div class="choose-option mb30">
+                                <select class="selectpicker form-control" title=''>
+                                    <option></option>
+                                    <option>Educación</option>
+                                    <option>Alimentación</option>
+                                    <option>Rehabilitación</option>
+                                    <option>Prótesis</option>
+                                    <option>Higiene</option>
+                                    <option>Imagen personal</option>
+                                    <option>Otros</option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 event-btn mt40">
+                      <a href="#" class="btn-orange text-uppercase">buscar</a>
+                  </div>
                     <div class="col-md-4 col-sm-6  mt40" ng-repeat="project in projectsList | filter:ageFilter | filter:levelFilter">
                         <div class="helping-slide causes">
                             <div class="helping-slide-img">
@@ -167,6 +167,7 @@
         </div>
         <script src="js/jquery.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="js/appProjects.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.themepunch.revolution.js" type="text/javascript"></script> 
         <script src="js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
@@ -178,6 +179,5 @@
         <script src="js/bootstrap-select.min.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/custom.js"></script>
-        <script src="js/appProjects.js"></script>
     </body>
 </html>
