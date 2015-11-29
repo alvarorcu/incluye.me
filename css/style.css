@@ -3316,3 +3316,6 @@ ul.profile-detail > li > span{
     color: #333;
     padding-right: 13px;
 }
+.filtro li {
+	width: 19.5%;
+}
